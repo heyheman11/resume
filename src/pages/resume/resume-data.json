@@ -1,0 +1,95 @@
+{
+  "heading": {
+    "name": "Daniel Zambetto",
+    "contact": {
+      "email": "daniel.zambetto@gmail.com",
+      "mobile": "+61 437 908 774",
+      "linkedIn": "https://www.linkedin.com/in/daniel-zambetto-90285ab5/"
+    }
+  },
+  "body": [
+    {
+      "title": "ABOUT ME",
+      "description": "Experienced software developer in a wide range of disciplines. Passionate about solving complex problems with simple solutions. Industry experience in creating consistent user interfaces, high emphasis on testing and strong DevOps works."
+    },
+    {
+      "title": "EXPERIENCE",
+      "nodes": [
+        {
+          "company": "NAB (NAB-X)",
+          "role": "Full Stack Developer",
+          "date": "Jan 2020 - Current",
+          "description": [
+            "Helped in designing, developing and providing resources and tooling for NABs micro-frontend solution. Including documentation creation and improvement, running internal training sessions on micro-front ends and NAB-X tooling",
+            "Designed and developed a web application for internal teams to host, which allows controlling web shell navigation structure",
+            "Improve developer tooling that is used across the organisation, done through constant upgrades and improvements to application generator (React and GraphQL based project)",
+            "Maintaining NABs web based React component library, overseeing every PR and enforcing strict standards across contributions",
+            "Range of DevOps tasks including creating and maintaining Dockerfiles, automate AWS ECS deployments, Jenkins maintenance as well as pipeline creation and Akamai management"
+          ]
+        },
+        {
+          "company": "NAB",
+          "role": "AEM Developer",
+          "date": "Oct 2019 - Jan 2020",
+          "description": [
+            "Quality of life improvements to AEM components such as automatic file size display when authors create download links",
+            "Developed accessibility skip links functionality which enables quick navigation for keyboard users",
+            "Created a web-scraping tool using Pupeteer that audits nab.com.au to ensure consistent links are used across the site"
+          ]
+        },
+        {
+          "company": "NAB (JBWere)",
+          "role": "Full Stack Developer",
+          "date": "Feb 2019 - Oct 2019",
+          "description": [
+            "Contributed to the client portal which is a web based customer dashboard and self service banking tool for JBWere clients",
+            "Created and deployed the first .NET Core API in the team, along with the first internal React application in the team. The purpose of this application was to alleviate in finding issues with the daily overnight process, helping in expediting remediation",
+            "DevOps work in the team to help create supporting services for the client portal such as a python based mail client service and supporting deployment scripts written in cloudformation and ansible"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "education",
+      "title": "EDUCATION",
+      "nodes": [
+        {
+          "place": "Monash University",
+          "date": "Mar 2015 - Jun 2018",
+          "description": "Bachelor of Computer Science"
+        },
+        {
+          "place": "Microsoft",
+          "date": "5 April 2019",
+          "description": "Azure Developer Associate (AZ-200 and AZ-201)"
+        }
+      ]
+    },
+    {
+      "title": "TECHNOLOGIES",
+      "type": "technologies",
+      "description": "",
+      "nodes": [
+        {
+          "type": "Frontend",
+          "description": [
+            "React",
+            "css & scss",
+            "styled-components",
+            "redux & recoil",
+            "webpack"
+          ]
+        },
+        { "type": "Backend", "description": ["node", "express", "GraphQL"] },
+        {
+          "type": "DevOps",
+          "description": [
+            "AWS - DynamoDB, ECS, ECR, EC2",
+            "Jenkins",
+            "Docker"
+          ]
+        }
+      ]
+    }
+  ]
+}
