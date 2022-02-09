@@ -3,7 +3,7 @@ import "./App.css";
 import { useState } from "react";
 
 const text =
-  "You can save this as PDF! Right click on the page, then select 'Print'. Ensure 'Destination' is 'Save as PDF', and that 'Margins' is set to 'None'.";
+  "You can save this as a PDF! Right click on the page, then select 'Print'. Ensure 'Destination' is 'Save as PDF', and that 'Margins' is set to 'None'.";
 
 function App() {
   const [showToolTip, setToolTip] = useState(false);

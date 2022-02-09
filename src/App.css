@@ -28,7 +28,7 @@
 .tool-tip {
   position: absolute;
   bottom: 1rem;
-  right: 1rem;
+  right: 2rem;
   border: 1px solid grey;
   max-width: 200px;
   padding: 1rem;
