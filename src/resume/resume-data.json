@@ -10,7 +10,7 @@
   "body": [
     {
       "title": "ABOUT ME",
-      "description": "Senior Full Stack developer who values performant, reliable and long lasting solutions with a passion for web applications and design."
+      "description": "Senior Full Stack Developer who values performant, reliable and long lasting solutions with a passion for web applications and design."
     },
     {
       "title": "EXPERIENCE",
@@ -24,7 +24,7 @@
             "Designing and developing City of Melbourne map based digital products, this includes being responsible for technical solutions and infrastructure",
             "Critical role in shaping digital user experiences, providing expertise on designing simple and accessible web applications",
             "Maintainer of core City of Melbourne NPM packages, including a reusable UI component library and a core Map based functionality",
-            "Other work includes assisting other teams with AWS and developing key applications such as Aboriginal Melbourne Desktop"
+            "Other work includes assisting internal teams with AWS and developing key applications such as Aboriginal Melbourne Desktop"
           ]
         },
         {
@@ -32,7 +32,7 @@
           "role": "Full Stack Developer",
           "date": "Jan 2020 - Jun 2021",
           "description": [
-            "Contribution in designing, developing and providing resources and tooling for NABs micro-frontend solution. Including documentation creation and improvement, running internal training sessions on micro-front ends and general web based solutions",
+            "Contribution in designing, developing and providing resources and tooling for NABs micro-frontend solution. Including documentation creation and improvement, running internal training sessions on micro-front ends and web based solutions",
             "Improve developer tooling that is used across the organisation, done through constant upgrades and improvements to application generator (React and GraphQL based project)",
             "Maintaining NABs web based React component library, overseeing every PR and enforcing strict standards across contributions. This library is used in large number of applications across the organisation.",
             "Range of DevOps tasks including creating and maintaining Dockerfiles, automate AWS ECS deployments, Jenkins maintenance as well as pipeline creation and Akamai management"
