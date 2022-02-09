@@ -19,3 +19,12 @@ code {
   --bg-colour-1: #536976;
   --bg-colour-2: #292e49;
 }
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+}

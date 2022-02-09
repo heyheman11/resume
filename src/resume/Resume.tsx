@@ -1,12 +1,11 @@
 import "./Resume.css";
 import resumeData from "./resume-data.json";
-import { Fragment } from "react";
 
 function Heading({ title }: any) {
   return (
     <div className="heading">
       <h2 className="gradient-text">{title}</h2>
-      <div className="bottom-border"></div>
+      <div className="bottom-border" />
     </div>
   );
 }
@@ -70,13 +69,13 @@ function DateStamp({ title, date }: any) {
 
 function Education({ section }: any) {
   return (
-    <Fragment>
+    <>
       <Heading title={section.title} />
       <ul>
         {section.nodes.map((item: any, index: number) => {
           return (
-            <li>
-              <div className="section" key={index}>
+            <li key={index}>
+              <div className="section">
                 <DateStamp title={item.place} date={item.date} />
                 <p>{item.description}</p>
               </div>
@@ -84,7 +83,7 @@ function Education({ section }: any) {
           );
         })}
       </ul>
-    </Fragment>
+    </>
   );
 }
 
@@ -134,7 +133,7 @@ function Resume() {
             return <Education key={index} section={section} />;
           }
           if (section.type === "technologies") {
-            return <Technologies section={section} />;
+            return <Technologies key={index} section={section} />;
           }
           return <ExperienceSection section={section} key={index} />;
         })}

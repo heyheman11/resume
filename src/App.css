@@ -1,7 +1,9 @@
 .page {
   display: grid;
+  overflow: auto;
   grid-template: auto / auto;
-  height: 100vh;
+  height: 100%;
+  padding: 4rem 2rem;
   background: #536976;
   background: linear-gradient(
     to right,
@@ -15,19 +17,24 @@
 
 @media (max-width: 800px) {
   .page {
-    grid-template: auto / auto;
+    padding: 4rem 0;
   }
-}
-
-.mobile-nav-wrapper {
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  z-index: 99;
-  background-color: rgba(56, 59, 59, 0.692);
-  display: grid;
 }
 
 * {
   font-family: "Satoshi-Regular";
+}
+
+.tool-tip {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  border: 1px solid grey;
+  max-width: 200px;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  font-size: 12px;
+  text-align: center;
+  transition: all 1s ease;
 }

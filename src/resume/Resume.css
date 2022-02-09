@@ -20,8 +20,8 @@ p {
   -webkit-box-shadow: 0px 0px 7.5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 7.5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 7.5px 0px rgba(0, 0, 0, 0.75);
-  width: 21cm;
-  height: 29.7cm;
+  max-width: 21cm;
+  /* min-height: 29.7cm; */
 }
 
 ul {
@@ -97,6 +97,7 @@ ul:last-child {
   height: 30px;
   border-radius: 60%;
   border: 2px solid gray;
+  background-color: lightgray;
 }
 
 .circle-container::before {
@@ -158,6 +159,12 @@ h1 {
   @page {
     size: 21cm 29.7cm;
   }
+  .page {
+    padding: 0;
+  }
+  .tool-tip {
+    display: none;
+  }
   .resume {
     -webkit-print-color-adjust: exact;
     height: 100%;
@@ -172,4 +179,3 @@ h1 {
     margin: 10px -15px;
   }
 }
-

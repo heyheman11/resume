@@ -1,41 +1,30 @@
-import { useRef, useState, useEffect } from "react";
-import { Body } from "./body/Body";
-import routes from "./routes";
+import { Resume } from "./resume/Resume";
 import "./App.css";
-import { useWindowDimensions } from "./hooks";
+import { useState } from "react";
 
-const MOBILE_WIDTH_BREAKPOINT = 800;
+const text =
+  "You can save this as PDF! Right click on the page, then select 'Print'. Ensure 'Destination' is 'Save as PDF', and that 'Margins' is set to 'None'.";
 
 function App() {
-  const [width] = useWindowDimensions();
-  const pageRef = useRef(null);
-  const [layout, setLayout] = useState<"desktop" | "mobile">("desktop");
-  const [isMobileNavActive, setIsMobileNavActive] = useState(false);
-
-  useEffect(() => {
-    if (width <= MOBILE_WIDTH_BREAKPOINT) {
-      setLayout("mobile");
-    } else {
-      setLayout("desktop");
-      if (isMobileNavActive) {
-        setIsMobileNavActive(false);
-      }
-    }
-  }, [width, isMobileNavActive]);
-
-  const handleMobileNavToggle = (toggle: boolean) => {
-    setIsMobileNavActive(toggle);
-  };
+  const [showToolTip, setToolTip] = useState(false);
 
   return (
-    <div className="page" ref={pageRef}>
-      <Body
-        pageRef={pageRef}
-        PageToRender={routes[0].component}
-        layout={layout}
-        handleMobileNavToggle={handleMobileNavToggle}
-      />
-    </div>
+    <>
+      <div className="page">
+        <Resume />
+      </div>
+      <div
+        className="tool-tip"
+        onMouseEnter={() => setToolTip(true)}
+        onMouseLeave={() => setToolTip(false)}
+      >
+        {showToolTip ? (
+          text
+        ) : (
+          <span style={{ fontSize: "20px", fontWeight: 600 }}>?</span>
+        )}
+      </div>
+    </>
   );
 }
 

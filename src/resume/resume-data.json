@@ -1,0 +1,94 @@
+{
+  "heading": {
+    "name": "Daniel Zambetto",
+    "contact": {
+      "email": "daniel.zambetto@gmail.com",
+      "mobile": "+61 437 908 774",
+      "linkedIn": "https://www.linkedin.com/in/daniel-zambetto-90285ab5/"
+    }
+  },
+  "body": [
+    {
+      "title": "ABOUT ME",
+      "description": "Senior Full Stack developer who values performant, reliable and long lasting solutions with a passion for web applications and design."
+    },
+    {
+      "title": "EXPERIENCE",
+      "nodes": [
+        {
+          "company": "City of Melbourne",
+          "role": "Senior Full Stack Developer",
+          "date": "Jul 2021 - Current",
+          "description": [
+            "Technical advisor and senior developer for City of Melbourne CityDNA exhibition, along side multiple standalone applications",
+            "Designing and developing City of Melbourne map based digital products, this includes being responsible for technical solutions and infrastructure",
+            "Critical role in shaping digital user experiences, providing expertise on designing simple and accessible web applications",
+            "Maintainer of core City of Melbourne NPM packages, including a reusable UI component library and a core Map based functionality",
+            "Other work includes assisting other teams with AWS and developing key applications such as Aboriginal Melbourne Desktop"
+          ]
+        },
+        {
+          "company": "NAB (NAB-X)",
+          "role": "Full Stack Developer",
+          "date": "Jan 2020 - Jun 2021",
+          "description": [
+            "Contribution in designing, developing and providing resources and tooling for NABs micro-frontend solution. Including documentation creation and improvement, running internal training sessions on micro-front ends and general web based solutions",
+            "Improve developer tooling that is used across the organisation, done through constant upgrades and improvements to application generator (React and GraphQL based project)",
+            "Maintaining NABs web based React component library, overseeing every PR and enforcing strict standards across contributions. This library is used in large number of applications across the organisation.",
+            "Range of DevOps tasks including creating and maintaining Dockerfiles, automate AWS ECS deployments, Jenkins maintenance as well as pipeline creation and Akamai management"
+          ]
+        },
+        {
+          "company": "NAB",
+          "role": "AEM Developer",
+          "date": "Oct 2019 - Jan 2020",
+          "description": [
+            "Ongoing improvements to AEM components such as automatic file size display when authors create download links",
+            "Developed accessibility skip links functionality which enables quick navigation for keyboard users",
+            "Created a web-scraping tool using Pupeteer that audits nab.com.au to ensure consistent links are used across the site"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "education",
+      "title": "EDUCATION",
+      "nodes": [
+        {
+          "place": "Monash University",
+          "date": "Mar 2015 - Jun 2018",
+          "description": "Bachelor of Computer Science"
+        }
+      ]
+    },
+    {
+      "title": "TECHNOLOGIES",
+      "type": "technologies",
+      "description": "",
+      "nodes": [
+        {
+          "type": "Frontend",
+          "description": [
+            "React",
+            "Typescript",
+            "redux & recoil",
+            "vite",
+            "webpack",
+            "d3",
+            "svg animation"
+          ]
+        },
+        { "type": "Backend", "description": ["GraphQL", "node", "express"] },
+        {
+          "type": "DevOps",
+          "description": [
+            "BitBucket pipelines",
+            "AWS - DynamoDB, ECS, ECR, EC2, Lambda, Cognito",
+            "Jenkins",
+            "Docker"
+          ]
+        }
+      ]
+    }
+  ]
+}
